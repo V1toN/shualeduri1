@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ecf2ff;
+}
+.container {
+  background-color: White;
+  margin: 152px auto;
+  max-width: 736px;
+  height: 512px;
+  border-radius: 32px;
+  display: flex;
+}
+.result-box {
+  width: 368px;
+  height: 512px;
+  background: linear-gradient(
+    180deg,
+    rgba(105, 67, 255, 1) 0%,
+    rgba(47, 44, 233, 1) 100%
+  );
+  border-radius: 32px;
+  display: flex;
+  width: 368px;
+  height: 512px;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 0px 48px 0px;
+}
+.result-box h3 {
+  color: #cac9ff;
+  margin-bottom: 35px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.score-cicrle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(77, 33, 201, 1) 0%,
+    rgba(37, 33, 201, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+.score-cicrle h2 {
+  font-size: 72px;
+  color: white;
+  margin: 50px 60px 0px 60px;
+}
+.score-cicrle p {
+  color: #cac9ff;
+  font-size: 18px;
+  margin: 0px 75px 46px 73px;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 134px;
+  text-align: center;
+}
+.result h2 {
+  color: white;
+  margin: 28px 0px 14px 0px;
+  font-size: 32px;
+}
+.result p {
+  color: #cac9ff;
+  font-size: 18px;
+}
+.summary-box {
+  margin-left: 40px;
+  display: flex;
+}
+.summary-box h2 {
+  font-size: 24px;
+  margin: 38px 224px 28px 0px;
+}
+ul {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+ul li {
+  width: 288px;
+  height: 56px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  justify-content: space-between;
+}
+.rate {
+  color: #303b59;
+  display: flex;
+  font-size: 18px;
+}
+ul span {
+  color: #303b5950;
+  display: flex;
+}
+ul img {
+  margin-right: 12px;
+}
+.reaction {
+  background-color: #ff555510;
+  color: #ff5555;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.reaction div {
+  display: flex;
+}
+.Memory {
+  background-color: #ffb21e10;
+  color: #ffb21e;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.Memory div {
+  display: flex;
+}
+.Verbal {
+  background-color: #00bb8f10;
+  color: #00bb8f;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.rate {
+  margin-left: 15px;
+}
+
+.Verbal div {
+  display: flex;
+}
+.Visual {
+  color: #1125d6;
+  background-color: #1125d610;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.rate {
+  margin-left: 21px;
+}
+.summary-box .Visual div {
+  display: flex;
+}
+
+.buttonContainer {
+  display: flex;
+}
+button {
+  width: 288px;
+  height: 56px;
+  border-radius: 128px;
+  margin-top: 41px;
+  background: linear-gradient(
+    180deg,
+    rgba(119, 85, 255, 1) 0%,
+    rgba(105, 67, 255, 1) 0%,
+    rgba(47, 44, 233, 1) 100%
+  );
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
